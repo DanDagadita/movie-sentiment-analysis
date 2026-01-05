@@ -23,13 +23,24 @@ This project requires a machine with an Nvidia GPU and its drivers, Docker Compo
 The GloVe word embeddings file also needs to be downloaded, either from [Kaggle](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt) or from [Stanford](https://nlp.stanford.edu/data/glove.6B.zip). Only the `glove.6B.100d.txt` file needs to be extracted from either archive, then placed in the `files` directory. The directory structure should now look like this:
 
 ```
+├── documentation
+│   ├── plot.png
+│   ├── presentation.pdf
+│   ├── presentation.pptx
+│   ├── presentation.typ
+│   ├── report.bib
+│   ├── report.pdf
+│   └── report.typ
+├── exported
+│   ├── final.py
+│   └── tutorial.py
 ├── files
 │   ├── .gitignore
 │   ├── glove.6B.100d.txt
 │   └── IMDB Dataset.csv
 ├── notebooks
-│   ├── dl_movie_sentiment_analysis_final.ipynb
-│   └── dl_movie_sentiment_analysis_tutorial.ipynb
+│   ├── final.ipynb
+│   └── tutorial.ipynb
 ├── compose.yml
 ├── jupyter_config.py
 ├── LICENSE
